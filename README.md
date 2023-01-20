@@ -2,13 +2,14 @@
 
 ## Metodologia
 
-Os dados utilizados neste trabalho encontram-se disponibilizados no endereço  https://bit.ly/AnalistadeDadoseBI-PedroCampos. Após o download do referido arquivo, foi realizada uma etapa de análise exploratória de dados, onde, além de atividades de conhecimento dos dados, foram realizados procedimentos de limpeza e preparação de dados. 
+Os dados utilizados neste trabalho encontram-se disponíveis no endereço  https://bit.ly/AnalistadeDadoseBI-PedroCampos. Após o download do referido arquivo, foi realizada uma etapa de análise exploratória de dados em que, além de atividades de conhecimento dos dados, foram executados procedimentos de limpeza e preparação de dados. 
 
-Ato contínuo, foram construídos alguns painéis de forma a possibilitar a realização de algumas análises relacionadas ao objetivo do trabalho.
+Ato contínuo, foram construídos painéis de forma a possibilitar a realização de análises relacionadas ao objetivo do trabalho.
 
-Todos os produtos entregues no âmbito deste trabalho foram desenvolvidos partir da utilização da linguagem de programação Python em conjunto com as bibliotecas pandas, numpy, streamlit e plotly. Os códigos encontram-se disponíveis em https://github.com/amiltonmendes/seletivo_legisla. 
+Todos os produtos entregues no âmbito deste trabalho foram desenvolvidos partir da utilização da linguagem de programação Python em conjunto com as bibliotecas pandas, numpy, streamlit e plotly. Os códigos encontram-se disponíveis na pasta src. 
 
 ## Análise exploratória de dados
+
 O arquivo utilizado neste trabalho apresentou 73 registros e 9 colunas, quais sejam, “Nome do Assessor”, “Ano de ingresso no Congresso”, “Cargo”, “Idade que começou a trabalhar”, “Identidade de gênero”, “Partido” ,  “Cor” , “Estado”  e “Orçamento disponível”.
 
 No que tange a qualidade de dados, observou-se problemas relacionados a utilização de caracteres não numéricos em campos numéricos, como nos campos “Ano de ingresso no Congresso”, “Idade que começou a trabalhar”.
